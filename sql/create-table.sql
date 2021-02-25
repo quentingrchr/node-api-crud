@@ -7,3 +7,8 @@ CREATE TABLE `node-api`.`users` (
 ALTER TABLE `node-api`.`users` 
 ADD COLUMN `password` VARCHAR(255) NOT NULL AFTER `age`,
 CHANGE COLUMN `name` `name` VARCHAR(255) NOT NULL ;
+
+INSERT INTO users VALUES (null, 'Oliver', '67', 'jkzdchzq');
+INSERT INTO users VALUES (null, 'Benoit', '24', 'ddc');
+INSERT INTO users VALUES (null, 'Théo', '18', 'dqqdcdqs');
+INSERT INTO users VALUES (null, 'Thomas', '103', 'hzq');
